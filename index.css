@@ -1,0 +1,50 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 32px;
+  line-height: 1.4;
+  height: 100vh;
+  background: url("img/xmas-bg.jpg");
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  padding: 2em;
+  text-align: center;
+  line-height: 1.4;
+  width: 375px;
+  color: #fff;
+  background: linear-gradient(#012338, #011019ab);
+  border-radius: 5px;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+#current-date {
+  font-size: 16px;
+}
+
+.countdown-display {
+  color: #0de40d;
+  padding: 10px;
+  margin: auto;
+  border-radius: 5px;
+  font-size: 100px;
+  background: linear-gradient(#011019, #011019ab);
+}
